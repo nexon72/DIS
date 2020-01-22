@@ -7,7 +7,7 @@ namespace Console_DIS
     {
         static void Main(string[] args)
         {
-            string team_1 = "India";
+           /* string team_1 = "India";
             string team_2 = "America";
             int goal_1 = 5;
             int goal_2 = 3;
@@ -534,8 +534,13 @@ namespace Console_DIS
 
             //Chapter 25 ==> Moon Landing Problem
 
-/******************************************************************************************
+/******************************************************************************************/
             Console.WriteLine("Hello World!!");
+
+            int age = 46;
+            int height = 61;
+            Console.WriteLine("I am years " + age +" old,my max heart rate is " + (220 - age) +
+             " and I am " + height + " inches tall.");
 
 
 
@@ -552,7 +557,7 @@ namespace Console_DIS
 
 
             
-        */
+ 
         }
     }
 }
