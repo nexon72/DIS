@@ -539,24 +539,10 @@ namespace Console_DIS
 
             int age = 46;
             int height = 61;
-            Console.WriteLine("I am years " + age +" old,my max heart rate is " + (220 - age) +
+            int max_rate = 220 - age;
+            Console.WriteLine("I am years " + age +" old,my max heart rate is " + max_rate +
              " and I am " + height + " inches tall.");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
+       
  
         }
     }
